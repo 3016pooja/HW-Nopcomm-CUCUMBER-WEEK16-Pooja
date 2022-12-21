@@ -1,0 +1,633 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4237399000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User should verify That The Product Added  And Place OrderSuccessfully",
+        "description": "",
+        "id": "login-test;user-should-verify-that-the-product-added--and-place-ordersuccessfully",
+        "after": [
+          {
+            "result": {
+              "duration": 182573200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 484680500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on electronics",
+            "match": {
+              "location": "HomepageSteps.iClickOnElectronics()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 339035000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on Cell Phones optin",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnCellPhonesOptin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32844700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I get Verify CellPhones",
+            "match": {
+              "location": "ElectronicsSteps.iGetVerifyCellPhones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 764301700,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 15,
+                "value": "#    And I click List View"
+              }
+            ],
+            "line": 16,
+            "name": "I click On Nokia Lumia",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnNokiaLumia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83120800,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 17,
+                "value": "#     And I click on nokia lumia again"
+              }
+            ],
+            "line": 18,
+            "name": "I send Change Quantity Two",
+            "match": {
+              "location": "ElectronicsSteps.iSendChangeQuantityTwo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45888700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click Add To Cart",
+            "match": {
+              "location": "ElectronicsSteps.iClickAddToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 244806200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I Verify Product Added",
+            "match": {
+              "location": "ElectronicsSteps.iVerifyProductAdded()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51928400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click Close Alert",
+            "match": {
+              "location": "ElectronicsSteps.iClickCloseAlert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1113653200,
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cspan class\u003d\"cart-label\"\u003e...\u003c/span\u003e is not clickable at point (1048, 22). Other element would receive the click: \u003cp class\u003d\"content\"\u003e...\u003c/p\u003e\n  (Session info: chrome\u003d108.0.5359.125)\nBuild info: version: \u00274.6.0\u0027, revision: \u002779f1c02ae20\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [cc2e4745a3688045d89ba6c7a923384e, clickElement {id\u003de5e72f30-92f8-4d13-93bd-2c308af4eaf6}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\pjmar\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53214}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53214/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (cc2e4745a3688045d89ba6c7a923384e)] -\u003e xpath: //span[@class\u003d\u0027cart-label\u0027]]\nSession ID: cc2e4745a3688045d89ba6c7a923384e\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)\r\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\r\n\tat com.nopcommerce.demo.utility.Utility.clickOnElement(Utility.java:53)\r\n\tat com.nopcommerce.demo.pages.NokiaLumiaPage.clickShoppingCart(NokiaLumiaPage.java:86)\r\n\tat com.nopcommerce.demo.cucumber.steps.ElectronicsSteps.iClickShoppingCart(ElectronicsSteps.java:74)\r\n\tat ✽.And I click Shopping Cart(electronics.feature:22)\r\n",
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "I click Shopping Cart",
+            "match": {
+              "location": "ElectronicsSteps.iClickShoppingCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I verify Shopping cart Text",
+            "match": {
+              "location": "ElectronicsSteps.iVerifyShoppingCartText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I verify Price Text elecronic",
+            "match": {
+              "location": "ElectronicsSteps.iVerifyPriceTextElecronic()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "I click On Agree Terms and Servicesr",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnAgreeTermsAndServicesr()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I click On Chekout",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnChekout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I verify Welcome SignIn",
+            "match": {
+              "location": "ElectronicsSteps.iVerifyWelcomeSignIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "I click On Register",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "I verify Register Text",
+            "match": {
+              "location": "ElectronicsSteps.iVerifyRegisterText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "I sent TextTo First Name",
+            "match": {
+              "location": "ElectronicsSteps.iSentTextToFirstName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "I sent Text To LastName",
+            "match": {
+              "location": "ElectronicsSteps.iSentTextToLastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "I sent Text To EmailId",
+            "match": {
+              "location": "ElectronicsSteps.iSentTextToEmailId()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "I sent Text To Password",
+            "match": {
+              "location": "ElectronicsSteps.iSentTextToPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "I sen Text To confirmPassword",
+            "match": {
+              "location": "ElectronicsSteps.iSenTextToConfirmPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "I click on RegisterButton",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "I verify text your Registration completed",
+            "match": {
+              "location": "ElectronicsSteps.iVerifyTextYourRegistrationCompleted()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "I click on Continue Button One",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnContinueButtonOne()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "I click on CheckBox I agree",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnCheckBoxIAgree()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "I click on Chekout ButtoN second",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnChekoutButtoNSecond()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "I enter Country Name",
+            "match": {
+              "location": "ElectronicsSteps.iEnterCountryName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "I enter City Name",
+            "match": {
+              "location": "ElectronicsSteps.iEnterCityName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "I enter Residance Address",
+            "match": {
+              "location": "ElectronicsSteps.iEnterResidanceAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "I enteR Zip code of Area",
+            "match": {
+              "location": "ElectronicsSteps.iEnteRZipCodeOfArea()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "I enter PhoneNumber",
+            "match": {
+              "location": "ElectronicsSteps.iEnterPhoneNumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "I click ON Continue Three",
+            "match": {
+              "location": "ElectronicsSteps.iClickONContinueThree()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "I click On second  Day Button",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnSecondDayButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "I click ON Continue four",
+            "match": {
+              "location": "ElectronicsSteps.iClickONContinueFour()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "I click On Payment Method Field",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnPaymentMethodField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "I click On Method Credit Card",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnMethodCreditCard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "I select Visa",
+            "match": {
+              "location": "ElectronicsSteps.iSelectVisa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "I enter Card Holder Name Nokia",
+            "match": {
+              "location": "ElectronicsSteps.iEnterCardHolderNameNokia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "I enter Card Number Nokia",
+            "match": {
+              "location": "ElectronicsSteps.iEnterCardNumberNokia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "I enter Expiry Month Nokia",
+            "match": {
+              "location": "ElectronicsSteps.iEnterExpiryMonthNokia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "I enter Expiry YearNokia",
+            "match": {
+              "location": "ElectronicsSteps.iEnterExpiryYearNokia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "I enter Card CodeNokia",
+            "match": {
+              "location": "ElectronicsSteps.iEnterCardCodeNokia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "I click On Continue Checkout Nokia",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnContinueCheckoutNokia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "I verify  nd Day Air Method",
+            "match": {
+              "location": "ElectronicsSteps.iVerifyNdDayAirMethod()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "I click On Confirm Button two",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnConfirmButtonTwo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "I verify ThankYou Text",
+            "match": {
+              "location": "ElectronicsSteps.iVerifyThankYouText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "I verify Your Order Sucessfully Placed",
+            "match": {
+              "location": "ElectronicsSteps.iVerifyYourOrderSucessfullyPlaced()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I click On Continue Button Fifth",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnContinueButtonFifth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "I verif Welcome To Our Store Page",
+            "match": {
+              "location": "ElectronicsSteps.iVerifWelcomeToOurStorePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 63,
+            "name": "I click OnLogOut Link",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnLogOutLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 64,
+            "name": "I get Url",
+            "match": {
+              "location": "ElectronicsSteps.iGetUrl()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "As user I want to login into nop commerce website",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "electronics.feature"
+  }
+]
